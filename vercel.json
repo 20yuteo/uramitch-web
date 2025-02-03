@@ -4,7 +4,7 @@
   "devCommand": "pnpm run dev",
   "installCommand": "pnpm install",
   "functions": {
-    "api/**/*.[jt]s": {
+    "app/**/*.[jt]s": {
       "memory": 1024,
       "maxDuration": 10
     }
