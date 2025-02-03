@@ -4,7 +4,7 @@
   "devCommand": "pnpm run dev",
   "installCommand": "pnpm install",
   "functions": {
-    "app/server.ts": {
+    "app/**/*.[jt]s": {
       "memory": 1024,
       "maxDuration": 10
     }
