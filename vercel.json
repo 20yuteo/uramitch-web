@@ -4,7 +4,7 @@
   "devCommand": "pnpm run dev",
   "installCommand": "pnpm install",
   "functions": {
-    "api/*": {
+    "app/server.ts": {
       "memory": 1024,
       "maxDuration": 10
     }
